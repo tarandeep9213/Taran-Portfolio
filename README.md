@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI-focused Full-Stack Developer Portfolio
 
 This is a starter portfolio built with Vite + React + Tailwind CSS. It is a dark-themed, responsive site designed to showcase AI-focused full-stack work.
@@ -56,3 +57,6 @@ If you want, I can:
 - Replace placeholders with your real content
 - Add analytics, a contact form integration, or blog routing
 - Prepare a GitHub repo and push the code
+=======
+# ai-dev-portfolio
+>>>>>>> 2264d75b21401d01172718594d7f3a63d6f49a41
