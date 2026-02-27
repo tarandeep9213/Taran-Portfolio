@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,8 +7,31 @@
   color-scheme: dark;
 }
 
+
 html,body,#root{
   height:100%;
+}
+
+section {
+  margin-bottom: 3.5rem;
+}
+
+.card-hover {
+  transition: box-shadow 0.3s, transform 0.3s;
+  will-change: transform;
+}
+.card-hover:hover {
+  box-shadow: 0 8px 32px 0 rgba(60,60,120,0.18);
+  transform: translateY(-2px) scale(1.03);
+}
+
+/* Fade-in animation for sections */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
 }
 
 body{

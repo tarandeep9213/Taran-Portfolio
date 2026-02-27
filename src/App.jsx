@@ -1,9 +1,12 @@
 import React from 'react'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
-import TechStack from './components/TechStack'
 import Projects from './components/Projects'
 import About from './components/About'
+import Experience from './components/Experience'
+import Contributions from './components/Contributions'
+//import SkillBars from './components/SkillBars'
+import TechStackGrid from './components/TechStackGrid'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -13,9 +16,12 @@ export default function App() {
       <Nav />
       <main className="flex-1 max-w-6xl mx-auto px-6 py-12">
         <Hero />
-        <TechStack />
-        <Projects />
         <About />
+        {/*<SkillBars />*/}
+        <Experience />
+        <Contributions />
+        <TechStackGrid />
+        <Projects />
         <Contact />
       </main>
       <Footer />
